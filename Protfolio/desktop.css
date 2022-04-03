@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(236, 249, 255);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container{
+    max-width: 3000px;
+    margin: 0 auto;
+} */
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* navbar start */
+[class*=col-]{
+    float: left;
+    padding: 10px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    padding: 10px;
+    margin: 15px;
+    background-color:crimson ;
+}
+/* navbar End */
+
+
+
+
+/* profile start here */
+.profile{
+    padding: 150px
+    
+}
+
+/* Profile ENd Here  */
+
+/* about section start */
+.dotted-hr{
+margin-bottom: 50px;
+color: white;
+}
+
+.about-section{
+    width: 100%;
+}
+.about-des{
+    text-align: left;
+}
+.about-section::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* about section ends */
+
+/* card section start */
+
+.profile-card{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: tomato;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 30px;
+}
+
+.card:hover{
+    box-shadow: 8px 10px 10px black;
+}
+
+.card-icon img{
+    width: 30px;
+    height: 30px;
+}
+.card-icon{
+    text-align: center;
+}
+.card-title{
+    background-color: tan;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* card section end */
